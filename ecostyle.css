@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+    
+}
+
+.logo img{
+    width: 120px;
+    height: 75px;
+    margin-top: 0px;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    float: left; 
+  
+   
+    
+}
+
+.header .logo{
+    float: left;
+    width: auto;  
+}
+.header .menu{
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.menu ul li{
+    display: inline-block; 
+    margin-right: 15px;
+}
+
+.menu ul li a{
+    
+  text-decoration: none;
+    color: #52575d;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.header .cart{
+    float: right;
+    margin-top: 15px;
+    
+}
+.slider{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    position: relative;
+    
+}
+.slider .slider-text{
+    width: 500px;
+    position: absolute;
+    top: 5%;
+    bottom: 0px;
+    left: 60px;
+}
+.slider .slider-text h1{
+    font-size: 60px;
+    color:slateblue;
+    font-family: monospace; 
+   
+    
+   
+   
+}
+.slider .slider-text p{
+   font-size:  16px;
+    color: #52575d;
+    padding: 15px 0px;
+    line-height: 22px;
+    
+}
+.slider .slider-text a{
+    width: 150px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #c824f7;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    
+    
+}
+.mm{
+    margin-left: 20px;
+    color: mediumpurple;
+}
+.mahmoud{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+
+
